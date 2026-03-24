@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Android build artifacts (keep the android/ source, not build outputs)
+android/app/build/
+android/.gradle/
+android/build/
+*.apk
+*.aab
+
+# Capacitor
+.capacitor/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
